@@ -6,7 +6,7 @@ def encodeTc(tc):
     return tc
 def decodeTc(girilen_tc):
     if len(girilen_tc)!=11:
-        print("Geçerli bi tc gir amk")
+        print("Geçerli bir TC Kimlik Numarası giriniz!")
         return
     encodedtc=encodeTc(girilen_tc[0:10])
     return girilen_tc == encodedtc
@@ -16,7 +16,7 @@ def tclogin():
     if result == None:
         quit()
     elif not result:
-        print("Sahte tc")
+        print("Girdiğiniz TC Kimlik numarası gerçek değildir.")
     elif result:
-        print("Giriş başarılı")
+        print("Geçerli Bir TC Kimlik numarası girdiniz.")
 tclogin()
