@@ -1,2 +1,2 @@
 # Kimlik Sorgu
-Girilen tc kimliğin doğru olup olmadığını sorgulayan algoritma.
+Girilen TC Kimliğin doğru olup olmadığını sorgulayan algoritma.
